@@ -72,12 +72,16 @@
 
 .upcoming-matches-right {
   flex: 1;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 17px;
 }
 .upcoming-matches-right .card .card-body {
   padding: 20px;
 }
 .upcoming-matches-right .card img {
-  height: 100px;
+  height: 175px;
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
@@ -86,7 +90,6 @@
   color: black;
   border: 2px solid black;
   padding: 10px 15px;
-  margin-top: 10px;
 }
 .upcoming-matches-right .card h2 {
   margin: 15px 0;
