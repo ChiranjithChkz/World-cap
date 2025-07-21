@@ -114,8 +114,12 @@ img {
 /* Responsive for tab */
 
 @media screen and (max-width: 992px) {
+  .banner {
+    margin: 10px;
+  }
   .upcoming-matches {
     flex-direction: column;
+    margin: 0 20px 0 20px;
   }
   .upcoming-matches-left {
     width: 100%;
@@ -131,6 +135,7 @@ img {
   .upcoming-matches-right {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .banner h2 {
     font-size: 40px;
     font-weight: 500;
